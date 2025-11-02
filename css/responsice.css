@@ -1,0 +1,85 @@
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+  .nav-menu {
+    width: 100%;
+    max-width: none;
+    border: none;
+    border-radius: 0;
+    background: rgba(15, 23, 42, 0.95);
+    position: absolute;
+    top: 70px;
+    right: -100%;
+    background: rgba(15, 23, 42, 0.95);
+    width: 220px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: right 0.4s ease-in-out;
+  }
+
+  .nav-menu.show {
+    right: 0;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 80px 20px;
+  }
+
+  .skill-box {
+    padding: 25px 15px;
+  }
+
+  .skill-box i {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 80px 20px;
+  }
+
+  .project-card img {
+    height: 180px;
+  }
+
+  .project-content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+}
